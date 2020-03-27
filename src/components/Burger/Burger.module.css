@@ -1,0 +1,23 @@
+.OutDiv {
+    height: 40vh;
+    margin-bottom: 1%;
+}
+
+.Burger {
+    width: 30%;
+    margin: auto;
+    height: 100%;
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+    overflow: scroll;
+}
+
+@media (min-width: 500) and (min-height: 400) {
+    .Burger {
+        width: 350px;
+        height: 300px;
+    }
+}
